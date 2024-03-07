@@ -1,7 +1,8 @@
 body{
     /*Find a different shade of the backrgound, because this one is puttiing strain on the eyes*/
     font-family: "Poppins", sans-serif;
-    background-color:#F7F7F7;
+    background-color:aliceblue;
+    
    
 
 }
@@ -11,7 +12,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color:white;
+    background-color:cadetblue;
     height:4em;
     position:-webkit-sticky;
     position:sticky;
@@ -28,7 +29,7 @@ ul{
     display:flex;
     list-style: none;
     justify-content:space-between;
-    color:black;
+    color:white;
 }
 
 li{
@@ -44,7 +45,7 @@ li{
     flex-direction:column;
     position:relative;
     align-items:center;
-    left:15em;
+    left:13.8em;
     top:10em;
 }
 #intro{
@@ -66,12 +67,12 @@ li{
     left:12px;
     
 }
-
+/*
 #img-shrink{
     height:35px;
     width:35px;
     padding-bottom:2px;
-}
+}*/
 h3{
     font-size:1.6em;
     margin:1rem 0 1rem 2.2rem;
@@ -89,33 +90,46 @@ h2{
     top:2.5em;
 
 }
-
+/*
 .social:hover{
-    background-color:grey;
-    border:5px solid grey;
-}
-img{
+    border:5px solid cadetblue;
+   
+}*/
+#img{
     height:40px;
     width:40px;
     position:relative;
-    
-    left:3.6em;
+    left:0.1em;
+    margin-left: 1em;
 }
 
-img:hover{
-    background-color:white;
+img{
+    width:20rem ;
+    height: 20rem; 
+    border-radius: 50%;
+    position:relative;
+    left:12em;
+    overflow:hidden;
 }
 
 .about{
-    height:42em;
-    width:99%;
-    background-color:blue;
+    display:flex;
+}
+.bio{
+    display:inline;
+    position:absolute;
+    left:35em;
+    right:2em;
+    top:45em;
+}
+#puck{
+    display:inline;
     position:relative;
-    opacity:50%;
-    border-radius:10px;
-
+    left:10rem;
 }
 
-.about-intro{
-    
+.light{
+    position:absolute;
+    top:51.5em;
 }
+
