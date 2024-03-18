@@ -1,0 +1,7 @@
+##To-do list(18-03-2024)
+  1.Style the about me section.
+  2.fix the line below the "about me " line
+  3.fix the length/size of the div containing the bio
+  4.align the about line relative to the orange line above it
+  5.start disigning the Education section.
+  6.add the your image in the about section.
